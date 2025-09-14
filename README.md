@@ -56,10 +56,10 @@ This project explores **AWS Identity and Access Management (IAM)** and **resourc
 
 ![DeveloperGroupPolicy](Screenshots/5.png)
 
-# Permissions for EC2
+#### Permissions for EC2
 - There are no specific EC2 actions listed in this policy
 
-# Permissions  for S3
+#### Permissions  for S3
 -	"Action": "s3:CreateBucket" - This allows creating S3 buckets.
 -	"Action": "s3:ListAllMyBuckets" - This permit listing all S3 buckets owned by the user.
 -	"Action": "s3:ListBucket" - This allows listing the objects in an S3 bucket.
