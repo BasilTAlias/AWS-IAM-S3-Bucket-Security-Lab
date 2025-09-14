@@ -36,8 +36,10 @@ This project explores **AWS Identity and Access Management (IAM)** and **resourc
 
 ### 2️⃣ Read-Level Access to AWS Services
 - Tried **launching EC2** → Access denied.  
-- Explored **S3 buckets** → Read access available.  
-📸 Screenshot:  
+- Explored **S3 buckets** → Read access available.
+  
+📸 Screenshot:
+
 ![EC2 access denied](Screenshots/2.png)
 
 ![EC2 access denied](Screenshots/3.png)
@@ -71,8 +73,10 @@ This project explores **AWS Identity and Access Management (IAM)** and **resourc
 
 ### 4️⃣ Write-Level Access
 - Successfully **created a new S3 bucket**.  
-- **Upload failed** because `s3:PutObject` was not included in policy.  
+- **Upload failed** because `s3:PutObject` was not included in policy.
+  
 📸 Screenshot:  
+
 ![S3 upload denied](Screenshots/6.png)
 
 ---
